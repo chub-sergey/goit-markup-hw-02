@@ -1,21 +1,19 @@
-
 body {
   font-family: 'Roboto', sans-serif;
-  --main-color:  #2e2f42;
-  --second-color:#434455;
-  --primary-brand-color:#4d5ae5;
-  --pressed-state-color:#404bbf;
-  --light-first-color:#ffffff;
+  --main-color: #2e2f42;
+  --second-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --light-first-color: #ffffff;
   --light-second-color: #f4f4fd;
   --light-third-color: #e7e9fc;
   --typical-lh: 1.5;
-
-}
-.list {
-  list-style: none;
 }
 .link {
   text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 .visually-hidden {
   position: absolute;
@@ -29,24 +27,25 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* ======Header====================== */
+/* ==============Header */
 /* .header {
 }
-.header-navigation 
+.header-navigation {
 } */
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: var(--main-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--main-color);
+}
+.header-logo-color {
+  color: var(--primary-brand-color);
 }
 
 /* .header-list {
-}
-.header-item {
 } */
 .header-link {
   font-weight: 600;
@@ -59,16 +58,12 @@ body {
 .header-link:focus {
   color: var(--pressed-state-color);
 }
-.header-logo-color {
-  color: var(--primary-brand-color);
-}
 /* .address {
 }
 .address-list {
 }
 .address-item {
 } */
-
 .address-mail {
   font-style: normal;
   font-size: 16px;
@@ -88,110 +83,63 @@ body {
   color: var(--second-color);
 }
 .address-tel:hover,
-.address-tel:focus {
+.address-tel :focus {
   color: var(--pressed-state-color);
 }
-/* =============  Hero================== */
-.hero {
-  background-color: var(--main-color);
+/* =============Portfolio=========================== */
+/* .main {
 }
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--light-first-color);
+.portfolio {
+} */
+
+/* .filters-list {
 }
-.hero-btn {
+.filters-item {
+} */
+.filters-btn {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   line-height: var(--typical-lh);
-  background-color: var(--primary-brand-color);
-  color:var(--light-text-color);
   letter-spacing: 0.04em;
+  background-color: var(--light-second-color);
+  color: var(--primary-brand-color);
   cursor: pointer;
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.filters-btn:hover,
+.filters-btn :focus {
+  color: var(--light-first-color);
   background-color: var(--pressed-state-color);
 }
-
-/* ============= Features================= */
-/* .features {
+/* .portfolio-list {
 }
-.features-list {
-}
-.feature-item {
+.portfolio-item {
 } */
-.feature-title {
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-.feature-text {
+.portfolio-text {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
-/* ===============About===================== */
-/* .about {
-} */
-.about-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11; 
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-color);
-}
-/* .about-list {
-}
-.about-item {
-} */
-/* ================Team===================== */
-.team {
-  background-color: var(--light-second-color);
-}
-.team-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;  
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-color);
-}
-/* .team-list {
-}
-.team-item { */
-}
-.team-surname {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;  
-  letter-spacing: 0.02em;
-  color: var(--main-color);
-  background-color: var(--light-text-color);
-}
-.team-text {
-  font-size: 16px;
-  line-height:var(--typical-lh);  
-  letter-spacing: 0.02em;
-  color: var(--second-color);
-}
-/* ==============Footer================ */
+/* ===============Footer================= */
 .footer {
   background-color: var(--main-color);
 }
 .footer-logo {
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  color: var(--light-second-color);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--light-second-color);
 }
 .footer-logo-color {
   color: var(--primary-brand-color);
@@ -200,5 +148,5 @@ body {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
-  color: var();
+  color: var(--light-third-color);
 }
