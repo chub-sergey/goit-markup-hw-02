@@ -1,13 +1,14 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  --main-color: #2e2f42;
+:root{--main-color: #2e2f42;
   --second-color: #434455;
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
   --light-first-color: #ffffff;
   --light-second-color: #f4f4fd;
   --light-third-color: #e7e9fc;
-  --typical-lh: 1.5;
+  --typical-lh: 1.5;}
+body {
+  font-family: 'Roboto', sans-serif;
+  
 }
 .link {
   text-decoration: none;
